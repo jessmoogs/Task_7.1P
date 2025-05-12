@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <!-- Centered Big Title -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Lost &amp; Found App"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#3F51B5"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnCreateAdvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a New Advert"
+        android:textAllCaps="true"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnShowAdverts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show All Lost &amp; Found Items"
+        android:textAllCaps="true"
+        android:backgroundTint="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium" />
+
+</LinearLayout>
